@@ -3,7 +3,7 @@
 Contributors:       mysterythemes
 Tags:               blog, portfolio, news, grid-Layout, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, full-width-template, footer-widgets, rtl-language-support, theme-options, translation-ready, block-styles, wide-blocks
 Requires at least:  5.0
-Tested up to:       6.5
+Tested up to:       6.7
 Requires PHP:       7.4
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
@@ -66,7 +66,7 @@ Color Magazine is distributed under the terms of the GNU GPL
     Source: https://github.com/aamirafridi/jQuery.Marquee
 
     Screenshot Images Licence ==
-        
+
         Credit Alexandr Podvalny
         License: CC0 1.0 Universal (CC0 1.0)
         License URL: https://stocksnap.io/license
@@ -76,22 +76,22 @@ Color Magazine is distributed under the terms of the GNU GPL
         License: CC0 1.0 Universal (CC0 1.0)
         License URL: https://stocksnap.io/license
         Source: https://stocksnap.io/photo/milan-italy-VOVU4FRFKD
-        
+
         Credit  Matt Moloney
         License: CC0 1.0 Universal (CC0 1.0)
         License URL: https://stocksnap.io/license
         Source: https://stocksnap.io/photo/female-fitness-WS5Y2JCAGY
-        
+
         Credit  EVG Photos
         License: CC0 1.0 Universal (CC0 1.0)
         License URL: https://stocksnap.io/license
         Source: https://stocksnap.io/photo/retro-woman-RPNR8Z1UW0
-        
+
         Credit  Matt Moloney
         License: CC0 1.0 Universal (CC0 1.0)
         License URL: https://stocksnap.io/license
         Source: https://stocksnap.io/photo/urban-fashion-LU8HSCTS30\
-        
+
         License: CC0 Public Domain
         License URL: https://pxhere.com/en/license
         Source: https://pxhere.com/en/photo/1088210

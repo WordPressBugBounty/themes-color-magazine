@@ -581,3 +581,11 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
+
+#customize-controls img:hover {
+	cursor: pointer;
+}
+
+#accordion-section-theme_upsell .accordion-section-title::after {
+	display: none;
+}

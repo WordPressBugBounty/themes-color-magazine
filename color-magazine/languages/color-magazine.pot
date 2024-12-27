@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Color Magazine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 16:24+0000\n"
+"POT-Creation-Date: 2024-12-27 06:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -20,8 +20,13 @@ msgstr ""
 msgid " ago"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:502
+#: inc/admin/class-color-magazine-dashboard.php:435
 msgid "$59.99"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:48
+#, php-format
+msgid "%1$s Dashboard"
 msgstr ""
 
 #. 1: plugin name.
@@ -36,25 +41,33 @@ msgstr ""
 msgid "%1$s installed successfully."
 msgstr ""
 
+#: inc/admin/class-color-magazine-notice.php:131
+#, php-format
+msgid ""
+"%1$s is now installed and ready to use. Now that you are part of us. We have "
+"curated some important links for you to get rolling."
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:73
+#, php-format
+msgid "%1$s Options"
+msgstr ""
+
 #: inc/widgets/mt-widget-fields.php:77
 msgid "- - Select User - -"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:516
+#: inc/admin/class-color-magazine-dashboard.php:459
+#: inc/admin/class-color-magazine-dashboard.php:494
 msgid "1"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:526
-#: inc/theme-settings/mt-theme-settings.php:571
-msgid "2"
+#: inc/admin/class-color-magazine-dashboard.php:495
+msgid "3"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:517
+#: inc/admin/class-color-magazine-dashboard.php:460
 msgid "4"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:572
-msgid "4+"
 msgstr ""
 
 #: 404.php:23
@@ -69,7 +82,7 @@ msgstr ""
 msgid "404 Page"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:527
+#: inc/admin/class-color-magazine-dashboard.php:465
 msgid "600+"
 msgstr ""
 
@@ -81,10 +94,11 @@ msgstr ""
 msgid "A widget to display the latest posts with thumbnail."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:133
+#: inc/admin/class-color-magazine-notice.php:101
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:665
 #: inc/tgm/class-tgm-plugin-activation.php:2726
 msgid "Activate"
 msgstr ""
@@ -95,15 +109,15 @@ msgstr ""
 msgid "Activate %2$s"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:774
+#: inc/admin/class-color-magazine-admin.php:516
 msgid "Activate Now"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:773
+#: inc/admin/class-color-magazine-admin.php:515
 msgid "Activated"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:773
+#: inc/admin/class-color-magazine-admin.php:515
 msgid "Activating"
 msgstr ""
 
@@ -147,10 +161,6 @@ msgstr ""
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:570
-msgid "Archive layouts"
-msgstr ""
-
 #: inc/customizer/mt-customizer-blog-panel-options.php:27
 msgid "Archive Pages"
 msgstr ""
@@ -183,6 +193,10 @@ msgstr ""
 #: inc/customizer/mt-customizer-general-panel-options.php:451
 #: template-parts/partials/scroll-top.php:18
 msgid "Back To Top"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:488
+msgid "Banner Option"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:380
@@ -228,12 +242,12 @@ msgstr ""
 msgid "Browse:"
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:369
 #: inc/customizer/mt-customizer.php:69
-#: inc/theme-settings/mt-theme-settings.php:386
 msgid "Buy Now"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:583
+#: inc/admin/class-color-magazine-dashboard.php:517
 msgid "Buy Pro"
 msgstr ""
 
@@ -241,11 +255,11 @@ msgstr ""
 msgid "Categories Color"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:219
+#: inc/admin/class-color-magazine-dashboard.php:101
 msgid "Changelog"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:137
+#: inc/admin/class-color-magazine-notice.php:105
 msgid "Cheat in &#8217; huh?"
 msgstr ""
 
@@ -266,16 +280,9 @@ msgstr ""
 msgid "Choose widget layout from available layouts"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:391
+#: inc/admin/class-color-magazine-dashboard.php:317
+#: inc/admin/class-color-magazine-dashboard.php:374
 msgid "Click to import demo"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:161
-#, php-format
-msgid ""
-"Clicking get started will process to installation of %1$s Mystery Themes "
-"Demo Importer %2$s Plugin in your dashboard. After success it will redirect "
-"to the theme settings page."
 msgstr ""
 
 #: inc/customizer/mt-customizer-custom-classes.php:366
@@ -285,7 +292,6 @@ msgstr ""
 #. Name of the theme
 #: inc/mt-custom-hooks.php:366
 #: inc/customizer/mt-customizer-footer-panel-options.php:126
-#: inc/theme-settings/mt-theme-settings.php:494
 msgid "Color Magazine"
 msgstr ""
 
@@ -302,13 +308,9 @@ msgid ""
 "magazine-demos/"
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:428
 #: inc/customizer/mt-customizer.php:68
-#: inc/theme-settings/mt-theme-settings.php:495
 msgid "Color Magazine Pro"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:560
-msgid "Color Option"
 msgstr ""
 
 #. %s is the page number.
@@ -330,6 +332,15 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
+#: inc/admin/class-color-magazine-notice.php:128
+msgid "Congratulations!"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:203
+#: inc/admin/class-color-magazine-dashboard.php:208
+msgid "Contact Support"
+msgstr ""
+
 #. %s: Name of current post. Only visible to screen readers
 #: template-parts/content-single.php:46 template-parts/content.php:45
 #, php-format
@@ -340,13 +351,29 @@ msgstr ""
 msgid "Copyright Text"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:535
+#: inc/admin/class-color-magazine-dashboard.php:473
+msgid "CSS3 Animation"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:478
 msgid "Custom 404 Page"
+msgstr ""
+
+#: inc/admin/class-color-magazine-notice.php:156
+msgid "Customize your site"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:156
+msgid "Customizer quick link"
 msgstr ""
 
 #: inc/mt-class-breadcrumbs.php:790 inc/mt-class-breadcrumbs.php:1219
 msgctxt "daily archives date format"
 msgid "j"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:660
+msgid "Deactivate"
 msgstr ""
 
 #: inc/widgets/mt-latest-posts.php:49
@@ -361,12 +388,13 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:393
-msgid "Demo importer plugin is not installed or activated"
+#: inc/admin/class-color-magazine-notice.php:168
+msgid "Demo"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:211
-msgid "Demos"
+#: inc/admin/class-color-magazine-dashboard.php:319
+#: inc/admin/class-color-magazine-dashboard.php:376
+msgid "Demo importer plugin is not installed or activated"
 msgstr ""
 
 #: inc/template-tags.php:129
@@ -378,15 +406,15 @@ msgstr ""
 msgid "Dismiss this notice"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:154
+#: inc/admin/class-color-magazine-notice.php:125
 msgid "Dismiss this notice."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:291
+#: inc/admin/class-color-magazine-notice.php:178
 msgid "Documentation"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:164
+#: inc/admin/class-color-magazine-notice.php:152
 msgid "Done!"
 msgstr ""
 
@@ -496,6 +524,10 @@ msgstr ""
 msgid "Extra Options"
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:563
+msgid "F"
+msgstr ""
+
 #: inc/mt-custom-hooks.php:236
 #: inc/customizer/mt-customizer-front-panel-options.php:145
 #: inc/customizer/mt-customizer-front-panel-options.php:153
@@ -510,40 +542,48 @@ msgstr ""
 msgid "Featured Posts Content"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:493
+#: inc/admin/class-color-magazine-dashboard.php:426
 msgid "Features"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:564
+msgid "Fixed"
 msgstr ""
 
 #: template-parts/partials/header/social-icons.php:18
 msgid "Follow Us: "
 msgstr ""
 
-#: functions.php:61
+#: functions.php:67
 msgid "Footer"
 msgstr ""
 
 #: inc/widgets/mt-widget-functions.php:56
-#, php-format
 msgid "Footer %d"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:545
-msgid "Footer Layout Options"
+#: inc/admin/class-color-magazine-dashboard.php:483
+msgid "Footer Background Option"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:175
+msgid "Footer Setting"
 msgstr ""
 
 #: inc/customizer/mt-customizer-panels.php:71
 msgid "Footer Settings"
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:498
 #: inc/customizer/mt-customizer-footer-panel-options.php:27
 msgid "Footer Widget Area"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:501
+#: inc/admin/class-color-magazine-dashboard.php:434
 msgid "Free"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:215
+#: inc/admin/class-color-magazine-dashboard.php:96
 msgid "Free Vs Pro"
 msgstr ""
 
@@ -551,44 +591,48 @@ msgstr ""
 msgid "Frontpage Slider Sections"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:555
+#: inc/admin/class-color-magazine-dashboard.php:508
 msgid "GDPR Compatible"
+msgstr ""
+
+#: inc/admin/class-color-magazine-notice.php:143
+msgid "General Info"
 msgstr ""
 
 #: inc/customizer/mt-customizer-panels.php:27
 msgid "General Settings"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:207
-msgid "Get Started"
+#: inc/admin/class-color-magazine-dashboard.php:514
+msgid "Get access to all Pro features and power-up your website"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:165
+#: inc/admin/class-color-magazine-notice.php:153
 #, php-format
 msgid "Get started with %1$s"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:316
+#: inc/admin/class-color-magazine-dashboard.php:232
 msgid "Go to Dashboard"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:316
+#: inc/admin/class-color-magazine-dashboard.php:232
 msgid "Go to Dashboard &rarr; Home"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:525
-msgid "Google Fonts"
+#: inc/admin/class-color-magazine-dashboard.php:195
+msgid "Go to doc"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:662
-msgid "Got theme support question?"
+#: inc/admin/class-color-magazine-dashboard.php:463
+msgid "Google Fonts"
 msgstr ""
 
 #: inc/widgets/mt-widget-functions.php:40
 msgid "Header Ads Section"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:515
+#: inc/admin/class-color-magazine-dashboard.php:458
 msgid "Header Layouts"
 msgstr ""
 
@@ -599,10 +643,6 @@ msgstr ""
 #: inc/customizer/mt-customizer-header-panel-options.php:211
 #: template-parts/partials/header/ticker.php:26
 msgid "Headline"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:258
-msgid "Here are some useful links for you to get started"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:3509
@@ -619,16 +659,6 @@ msgctxt "hour archives time format"
 msgid "g a"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:636
-#, php-format
-msgid ""
-"Howdy, %1$s! It seems that you have been using this theme for more than 15 "
-"days. We hope you are happy with everything that the theme has to offer. If "
-"you can spare a minute, please help us by leaving a 5-star review on "
-"WordPress.org.  By spreading the love, we can continue to develop new "
-"amazing features in the future, for free!"
-msgstr ""
-
 #. Author URI of the theme
 msgid "https://mysterythemes.com"
 msgstr ""
@@ -637,37 +667,38 @@ msgstr ""
 msgid "https://mysterythemes.com/wp-themes/color-magazine"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:657
-msgid "I already did"
+#: inc/admin/class-color-magazine-dashboard.php:559
+msgid "I"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:743
-#, php-format
-msgid ""
-"If you like <strong>%1$s</strong> please leave us a %2$s rating. A huge "
-"thank you from <strong>Mystery Themes</strong> in advance &#128515!"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:397
+#: inc/admin/class-color-magazine-dashboard.php:323
+#: inc/admin/class-color-magazine-dashboard.php:380
 msgid "Import"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:396
+#: inc/admin/class-color-magazine-dashboard.php:322
+#: inc/admin/class-color-magazine-dashboard.php:379
 #, php-format
 msgid "Import %1$s"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:505
+#: inc/admin/class-color-magazine-dashboard.php:438
 msgid "Import Demo Data"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:377
+#: inc/admin/class-color-magazine-dashboard.php:312
+#: inc/admin/class-color-magazine-dashboard.php:360
 msgid "Imported"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:376
+#: inc/admin/class-color-magazine-dashboard.php:311
+#: inc/admin/class-color-magazine-dashboard.php:359
 #, php-format
 msgid "Imported %1$s"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:560
+msgid "Improvement"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:2717
@@ -680,7 +711,8 @@ msgstr ""
 msgid "Install %2$s"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:767
+#: inc/admin/class-color-magazine-admin.php:509
+#: inc/admin/class-color-magazine-dashboard.php:655
 msgid "Install and Activate"
 msgstr ""
 
@@ -699,7 +731,7 @@ msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:766
+#: inc/admin/class-color-magazine-admin.php:508
 msgid "Installed & Activated"
 msgstr ""
 
@@ -711,7 +743,7 @@ msgstr ""
 msgid "Installed version:"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:766
+#: inc/admin/class-color-magazine-admin.php:508
 msgid "Installing & Activating"
 msgstr ""
 
@@ -743,8 +775,6 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#. If there are characters in your language that are not supported
-#. byJosefin Sans  translate this to 'off'. Do not translate into your own language.
 #: inc/template-functions.php:117
 msgctxt "Josefin Sans font: on or off"
 msgid "on"
@@ -758,6 +788,10 @@ msgstr ""
 #: inc/template-tags.php:93
 #, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:127
+msgid "Leave us a reivew"
 msgstr ""
 
 #: inc/metaboxes/mt-post-sidebar-meta.php:68
@@ -782,28 +816,16 @@ msgstr ""
 msgid "Maintenance Notice"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:270
-msgid "Manage header section"
+#: inc/admin/class-color-magazine-dashboard.php:167
+msgid "Manage Header"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:279
+#: inc/admin/class-color-magazine-dashboard.php:178
 msgid "Manage menus"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:276
-msgid "Manage Social Icons"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:273
-msgid "Manage Ticker Section"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:282
+#: inc/admin/class-color-magazine-dashboard.php:181
 msgid "Manage widgets"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:652
-msgid "Maybe later"
 msgstr ""
 
 #: template-parts/partials/header/main-header.php:64
@@ -836,10 +858,6 @@ msgctxt "monthly archives date format"
 msgid "F"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:288
-msgid "More Actions"
-msgstr ""
-
 #: inc/customizer/mt-customizer-blog-panel-options.php:101
 #: inc/customizer/mt-customizer-blog-panel-options.php:179
 #: inc/customizer/mt-customizer-blog-panel-options.php:278
@@ -857,6 +875,10 @@ msgstr ""
 msgid "More Features"
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:106
+msgid "More Features With Pro"
+msgstr ""
+
 #: inc/widgets/mt-author-info.php:26
 msgid "MT: Author Info"
 msgstr ""
@@ -869,7 +891,7 @@ msgstr ""
 msgid "MT: Social Media"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:520
+#: inc/admin/class-color-magazine-dashboard.php:443
 msgid "Multiple Layouts"
 msgstr ""
 
@@ -877,20 +899,20 @@ msgstr ""
 msgid "Mystery Themes"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:772
+#: inc/admin/class-color-magazine-admin.php:514
 msgid "Mystery Themes Demo Importer Plugin is installed but not activated!"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:765
+#: inc/admin/class-color-magazine-admin.php:507
 msgid "Mystery Themes Demo Importer Plugin is not installed!"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:297
-msgid "Need theme support?"
+#: inc/admin/class-color-magazine-dashboard.php:555
+msgid "N"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:261
-msgid "Next Steps"
+#: inc/admin/class-color-magazine-dashboard.php:556
+msgid "New"
 msgstr ""
 
 #. 1: plugin name.
@@ -899,7 +921,7 @@ msgstr ""
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:350
+#: inc/admin/class-color-magazine-dashboard.php:279
 msgid "No demos are configured for this theme, please contact the theme author"
 msgstr ""
 
@@ -961,6 +983,11 @@ msgstr ""
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
+#: inc/admin/class-color-magazine-notice.php:173
+#: inc/admin/class-color-magazine-notice.php:183
+msgid "opens in a new tab"
+msgstr ""
+
 #. %s is the page number.
 #: inc/mt-class-breadcrumbs.php:272
 #, php-format
@@ -991,6 +1018,7 @@ msgid ""
 "according to the WordPress guidelines."
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:91
 #: inc/tgm/class-tgm-plugin-activation.php:2547
 msgid "Plugin"
 msgstr ""
@@ -999,6 +1027,10 @@ msgstr ""
 #: inc/tgm/class-tgm-plugin-activation.php:2948
 msgctxt "plugin A *and* plugin B"
 msgid "and"
+msgstr ""
+
+#: inc/admin/class-color-magazine-admin.php:206
+msgid "Plugin activated successfully"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:387
@@ -1010,7 +1042,8 @@ msgstr ""
 msgid "Plugin activation failed."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:889
+#: inc/admin/class-color-magazine-admin.php:82
+#: inc/admin/class-color-magazine-admin.php:179
 msgid "Plugin installed successfully"
 msgstr ""
 
@@ -1022,7 +1055,7 @@ msgid ""
 "Please update the plugin."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:808
+#: inc/admin/class-color-magazine-admin.php:108
 msgid "Plugin Successfully Activated."
 msgstr ""
 
@@ -1035,15 +1068,9 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#. If there are characters in your language that are not supported
-#. by Poppins, translate this to 'off'. Do not translate into your own language.
 #: inc/template-functions.php:125
 msgctxt "Poppins font: on or off"
 msgid "on"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:575
-msgid "Post Content Reorder"
 msgstr ""
 
 #: inc/widgets/mt-latest-posts.php:56
@@ -1062,8 +1089,8 @@ msgstr ""
 msgid "Posts Sidebar Layout"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:510
-msgid "Pre Loaders Layouts"
+#: inc/admin/class-color-magazine-dashboard.php:453
+msgid "Pre Loader Layouts"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:2298
@@ -1078,15 +1105,11 @@ msgstr ""
 msgid "Preloader Style"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:294
-msgid "Premium version"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:500
+#: inc/admin/class-color-magazine-dashboard.php:433
 msgid "Price"
 msgstr ""
 
-#: functions.php:60
+#: functions.php:66
 msgid "Primary"
 msgstr ""
 
@@ -1094,11 +1117,11 @@ msgstr ""
 msgid "Primary Color"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:164
+#: inc/admin/class-color-magazine-notice.php:152
 msgid "Processing"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:385
+#: inc/admin/class-color-magazine-dashboard.php:368
 msgid "Purchase Now"
 msgstr ""
 
@@ -1108,6 +1131,10 @@ msgstr ""
 
 #: inc/customizer/mt-customizer-front-panel-options.php:186
 msgid "Random Posts"
+msgstr ""
+
+#: inc/admin/class-color-magazine-notice.php:183
+msgid "Read full documentation"
 msgstr ""
 
 #: inc/customizer/mt-customizer-blog-panel-options.php:75
@@ -1125,8 +1152,17 @@ msgstr ""
 msgid "Recommended"
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:645
+msgid "Recommended Free Plugins"
+msgstr ""
+
 #: template-parts/partials/post/related-posts.php:40
 msgid "Related Posts"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:580
+#, php-format
+msgid "Released on: %1$s"
 msgstr ""
 
 #: inc/widgets/mt-widget-fields.php:133
@@ -1145,7 +1181,7 @@ msgstr ""
 msgid "Requires Update"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:313
+#: inc/admin/class-color-magazine-dashboard.php:229
 msgid "Return to Dashboard &rarr; Updates"
 msgstr ""
 
@@ -1160,12 +1196,8 @@ msgstr ""
 msgid "Return to the Dashboard"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:313
+#: inc/admin/class-color-magazine-dashboard.php:229
 msgid "Return to Updates"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:300
-msgid "Review theme"
 msgstr ""
 
 #: inc/metaboxes/mt-post-sidebar-meta.php:74
@@ -1210,16 +1242,12 @@ msgstr ""
 msgid "Select the user to display the author info."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:264
-msgid "Set site logo"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:42
-msgid "Settings"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:267
+#: inc/admin/class-color-magazine-dashboard.php:164
 msgid "Setup site layout"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:161
+msgid "Setup site logo"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:3509
@@ -1266,14 +1294,15 @@ msgstr ""
 msgid "Slider Content"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:565
-msgid "Slider layouts"
+#: inc/admin/class-color-magazine-dashboard.php:493
+msgid "Slider Layouts"
 msgstr ""
 
 #: inc/customizer/mt-customizer-general-panel-options.php:333
 msgid "Social Icon"
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:170
 #: inc/customizer/mt-customizer-general-panel-options.php:291
 msgid "Social Icons"
 msgstr ""
@@ -1300,7 +1329,12 @@ msgid ""
 "different keywords."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:826
+#: inc/admin/class-color-magazine-admin.php:192
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr ""
+
+#: inc/admin/class-color-magazine-admin.php:26
+#: inc/admin/class-color-magazine-admin.php:123
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr ""
 
@@ -1308,12 +1342,21 @@ msgstr ""
 msgid "Source"
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:86
+#: inc/admin/class-color-magazine-notice.php:173
+msgid "Stater Sites"
+msgstr ""
+
 #: inc/tgm/class-tgm-plugin-activation.php:2554
 msgid "Status"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:647
-msgid "Sure"
+#: inc/admin/class-color-magazine-dashboard.php:130
+msgid "Submit a review"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:567
+msgid "T"
 msgstr ""
 
 #. 1: list of tags.
@@ -1388,6 +1431,10 @@ msgid ""
 "and renaming did not work."
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:190
+msgid "Theme Documentation"
+msgstr ""
+
 #. 1: Theme name, 2: Theme author.
 #: inc/mt-custom-hooks.php:373
 #, php-format
@@ -1406,6 +1453,10 @@ msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
+
+#: inc/admin/class-color-magazine-dashboard.php:646
+msgid "These Free Plugins might be handy for you."
+msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:522
 msgid "This plugin needs to be updated to be compatible with your theme."
@@ -1449,7 +1500,7 @@ msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: functions.php:59 inc/customizer/mt-customizer-header-panel-options.php:30
+#: functions.php:65 inc/customizer/mt-customizer-header-panel-options.php:30
 msgid "Top Header"
 msgstr ""
 
@@ -1470,20 +1521,25 @@ msgstr ""
 msgid "Trending section shows the popular tags."
 msgstr ""
 
+#: inc/admin/class-color-magazine-dashboard.php:216
+msgid "Tutorial"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:568
+msgid "Tweak"
+msgstr ""
+
 #: inc/tgm/class-tgm-plugin-activation.php:2549
 msgid "Type"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:540
+#: inc/admin/class-color-magazine-dashboard.php:468
 msgid "Typography Options"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:871
+#: inc/admin/class-color-magazine-admin.php:64
+#: inc/admin/class-color-magazine-admin.php:160
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:200
-msgid "Unlock Features With Pro"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:2723
@@ -1526,10 +1582,6 @@ msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:2684
 msgid "Upgrade message from the plugin author:"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:197
-msgid "Upgrade to Premium Version"
 msgstr ""
 
 #: inc/customizer/mt-customizer-custom-classes.php:429
@@ -1592,14 +1644,6 @@ msgstr ""
 msgid "Upgrade to pro for trending section advanced settings."
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:198
-msgid "Upgrade to pro version for additional features and better supports."
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:489
-msgid "Upgrade to PRO version for more exciting features."
-msgstr ""
-
 #: inc/widgets/mt-author-info.php:44
 msgid "User Name"
 msgstr ""
@@ -1608,16 +1652,19 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:190
+#: inc/admin/class-color-magazine-dashboard.php:682
+#, php-format
+msgid "Version %1$s"
+msgstr ""
+
+#: inc/admin/class-color-magazine-dashboard.php:74
+#: inc/admin/class-color-magazine-dashboard.php:579
 #, php-format
 msgid "Version: %1$s"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:437
-msgid "View changelog below:"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:404
+#: inc/admin/class-color-magazine-dashboard.php:329
+#: inc/admin/class-color-magazine-dashboard.php:387
 msgid "View Demo"
 msgstr ""
 
@@ -1636,17 +1683,8 @@ msgctxt "weekly archives date format"
 msgid "W"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:156
-#, php-format
-msgid "Welcome to %s"
-msgstr ""
-
-#: inc/theme-settings/mt-theme-settings.php:158
-#, php-format
-msgid ""
-"Welcome! Thank you for choosing %1$s ! To fully take advantage of the best "
-"our theme can offer please make sure you visit our %2$s theme settings page "
-"%3$s."
+#: inc/admin/class-color-magazine-dashboard.php:81
+msgid "Welcome"
 msgstr ""
 
 #: inc/customizer/mt-customizer-footer-panel-options.php:67
@@ -1658,11 +1696,11 @@ msgstr ""
 msgid "Widget title"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:550
+#: inc/admin/class-color-magazine-dashboard.php:448
 msgid "WooCommerce Plugin Compatible"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:530
+#: inc/admin/class-color-magazine-dashboard.php:503
 msgid "WordPress Page Builder Compatible"
 msgstr ""
 
@@ -1678,7 +1716,7 @@ msgstr ""
 msgid "WP Magazine Modules Lite"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:303
+#: inc/admin/class-color-magazine-dashboard.php:221
 msgid "WP Tutorials"
 msgstr ""
 
@@ -1689,7 +1727,7 @@ msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: inc/theme-settings/mt-theme-settings.php:761
+#: inc/admin/class-color-magazine-admin.php:503
 msgid "You can import available demos now!"
 msgstr ""
 

@@ -4,9 +4,9 @@ Theme URI:          https://mysterythemes.com/wp-themes/color-magazine
 Author:             Mystery Themes
 Author URI:         https://mysterythemes.com
 Description:        Color Magazine is a free magazine WordPress theme specially designed for digital news, magazines, and news portal websites in general. With WordPress customizer, you can easily add a site logo, change colors, and choose layouts and fonts with instant preview. It comes with multiple pre-made demos that you can import to set up a well-designed professional website quickly. This theme has powerful features like a sticky header, category colors, a social sharing feature, a trending section, multiple layouts, and many more. Check the demo here: https://preview.mysterythemes.com/color-magazine-demos/
-Version:            1.0.9
+Version:            1.1.0
 Requires at least:  5.0
-Tested up to:       6.5
+Tested up to:       6.7
 Requires PHP:       7.4
 License:            GNU General Public License v3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
@@ -26,11 +26,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 Reset
 --------------------------------------------------------------*/
 
-html, body, div, span, applet, object, iframe, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
-abbr, acronym, address, big, cite, code, del, dfn, em, font, 
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, 
-tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, font,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
     border: 0;
     font-family: inherit;
@@ -1436,7 +1436,7 @@ Default widget css
 }
 
 /*--------------------------------------------------------------
-Sidebar layout css 
+Sidebar layout css
 --------------------------------------------------------------*/
 
 #primary,
@@ -3239,12 +3239,16 @@ Scroll To Top styles
   margin-top: 40px;
   border: 0px;
   font-size: 20px;
-  color: #777;
+  color: #fff;
 }
 
 .search-no-results .search-form {
   width: 80%;
   margin: 0 auto;
+}
+
+.wp-block-search__button{
+  line-height: 8px;
 }
 
 /*--------------------------------------------------------------
@@ -3281,7 +3285,15 @@ body.mt-site-dark-mode,
 .mt-site-dark-mode #respond,
 .mt-site-dark-mode #comments h3,
 .mt-site-dark-mode .menu-toggle a,
-.mt-site-dark-mode .mt-site-mode-wrap .mt-mode-toggle {
+.mt-site-dark-mode .mt-site-mode-wrap .mt-mode-toggle,
+.mt-site-dark-mode .navigation .nav-links a,
+.mt-site-dark-mode .entry-footer .tags-links a,
+.mt-site-dark-mode .wp-block-heading,
+.mt-site-dark-mode .widget_archive a,
+.mt-site-dark-mode .widget_categories a,
+.mt-site-dark-mode .widget_recent_entries a,
+.mt-site-dark-mode .widget_meta a,.mt-site-dark-mode .widget_recent_comments li,.mt-site-dark-mode .widget_rss li,.mt-site-dark-mode .widget_pages li a,.mt-site-dark-mode .widget_nav_menu li a,.mt-site-dark-mode .wp-block-latest-posts li a,.mt-site-dark-mode .wp-block-archives li a,.mt-site-dark-mode .wp-block-categories li a,.mt-site-dark-mode .wp-block-page-list li a,.mt-site-dark-mode .wp-block-latest-comments li,
+.mt-site-dark-mode .color_magazine_latest_posts .mt-post-title a {
   color: #FFFFFF;
 }
 
